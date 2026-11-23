@@ -1,1 +1,13 @@
-# D30-2FA08-YURONG
+first_name = input("Enter first name: ")
+last_name = input("Enter last name: ")
+section = input("Enter section: ")
+event_name = input("Enter event name: ")
+year = int(input("Enter event year: "))
+month = int(input("Enter event month: "))
+day = int(input("Enter event day: "))
+
+print("\nStudent Event Registration Summary")
+print("Name:", first_name, last_name)
+print("Section:", section)
+print("Event:", event_name)
+print("Event Date:", f"{month}/{day}/{year}")
